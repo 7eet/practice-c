@@ -12,6 +12,7 @@ int main()
       printf("First %d prime numbers are :\n",n);
       printf("2\n");
    }
+/*     explain from this line upto.28th line
    for ( count = 2 ; count <= n ;  )
    {
       for ( c = 2 ; c <= i - 1 ; c++ )
@@ -26,6 +27,6 @@ int main()
       }
       i++;
    }
- 
+ */
    return 0;
 }
