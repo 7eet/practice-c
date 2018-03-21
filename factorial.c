@@ -4,7 +4,7 @@ int main()
 {
   int a;
   long facto;
-  printf("enter number: ");
+  printf("factorial of : ");
   scanf("%d",&a);
   if (a==0)
 	printf("factorial of 0 is 0.");
