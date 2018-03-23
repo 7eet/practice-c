@@ -3,28 +3,30 @@ int factorial(int num);
 int main()
 {
   int a;
-  long facto;
-  printf("factorial of : ");
+  int fa;
+  printf("enter number: ");
   scanf("%d",&a);
+  
   if (a==0)
 	printf("factorial of 0 is 0.");
   else
-    if (a<0)
-      printf("Sorry! factorial of negative is not possible");
-    else
-      facto=factorial(a);
-      printf("Factorial of %d is %li .",a,facto); 	
+     if (a<0)
+        printf("Sorry! factorial of negative is not possible");
+     else
+        fa=factorial(a);
+        printf("Factorial is %d ",fa); 	
   return 0;
 }
 int factorial(int num) 
 {
-  int i,a;
-  long fact;   
+  int i;
+  int fact;   
   fact=1;
-  for (i=1;i<=a;)
-  {
-    fact=fact*i;
-    i=i+1;
-    return fact;
-  }
+  for (i=1;i<num+1;)
+    {
+      fact=fact*i;
+      i=i+1;
+      
+    }
+  return fact;
 }
